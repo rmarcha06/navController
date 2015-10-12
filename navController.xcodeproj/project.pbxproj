@@ -12,6 +12,8 @@
 		0A6B57E61BCC20CF00B6E607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6B57E41BCC20CF00B6E607 /* Main.storyboard */; };
 		0A6B57E81BCC20CF00B6E607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6B57E71BCC20CF00B6E607 /* Assets.xcassets */; };
 		0A6B57EB1BCC20CF00B6E607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6B57E91BCC20CF00B6E607 /* LaunchScreen.storyboard */; };
+		0A74CC1C1BCC279000783455 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74CC1B1BCC279000783455 /* YellowVC.swift */; };
+		0A74CC1E1BCC28A500783455 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74CC1D1BCC28A500783455 /* BlueVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0A6B57E71BCC20CF00B6E607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A6B57EA1BCC20CF00B6E607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A6B57EC1BCC20CF00B6E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A74CC1B1BCC279000783455 /* YellowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		0A74CC1D1BCC28A500783455 /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0A6B57E71BCC20CF00B6E607 /* Assets.xcassets */,
 				0A6B57E91BCC20CF00B6E607 /* LaunchScreen.storyboard */,
 				0A6B57EC1BCC20CF00B6E607 /* Info.plist */,
+				0A74CC1B1BCC279000783455 /* YellowVC.swift */,
+				0A74CC1D1BCC28A500783455 /* BlueVC.swift */,
 			);
 			path = navController;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A74CC1E1BCC28A500783455 /* BlueVC.swift in Sources */,
 				0A6B57E31BCC20CF00B6E607 /* ViewController.swift in Sources */,
 				0A6B57E11BCC20CF00B6E607 /* AppDelegate.swift in Sources */,
+				0A74CC1C1BCC279000783455 /* YellowVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				0A6B57F11BCC20CF00B6E607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
